@@ -8,7 +8,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-  let info = `Bot ini menggunakan script by\n ᴹᴿ᭄ King Of Bear ×፝֟͜×\n\n*Version:* Private Edition V3`
+  let info = `Bot ini menggunakan script by\n ᴹᴿ᭄ King Of Bear ×፝֟͜×\n\n*Version:* RPG MD V5`
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const message = {
@@ -19,14 +19,14 @@ const message = {
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: 'Beli Sc? Klik',
+                        displayText: 'Info Developer asli ? Klik',
                         url: 'https://wa.me/6288279268363'
                     }
                 },
                 {
                     urlButton: {
                         displayText: 'Ke YouTube',
-                        url: 'https://youtu.be/pwLZpdfO8AU',
+                        url: 'https://www.youtube.com/watch?v=cvAbJt3xQaA',
                     }
                 },
             ]
@@ -34,13 +34,13 @@ const message = {
         conn.sendMessage(m.chat, message)
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU',
+                        sourceUrl: 'https://www.youtube.com/watch?v=cvAbJt3xQaA',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
-                        title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ ᴄʀᴇᴀᴛᴇ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
+                        description: `⚘ 𝕊𝕖𝕔𝕣𝕖𝕥 𝕄𝔻`,
+                        title: `💌 Ultah mu : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        body: `⚘ ᴄʀᴇᴀᴛᴇ by 𝓡𝓮𝓮𝔂𝓪`,          previewType: 0,
                         thumbnail: await (await fetch(giflogo2)).buffer(),
-                        mediaUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        mediaUrl: 'https://www.youtube.com/watch?v=cvAbJt3xQaA'
                         
                       }}
 })
