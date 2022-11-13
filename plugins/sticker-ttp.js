@@ -1,10 +1,10 @@
-import { sticker } from '../lib/sticker.js'
-
-let handler = async (m, { conn, text }) => {
-    let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
-    let stiker = await sticker(null, global.API('xteam', '/ttp', { file: '', text: teks }), global.packname, global.author)
-    if (stiker) return conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
-    throw stiker.toString()
+import fetch from 'node-fetch'
+let handler = async (m, { conn, args }) => {
+   let response = args.join(' ').split('|')
+  if (!args[0]) throw 'ᴍᴀꜱᴜᴋᴋᴀɴ ᴛᴇxᴛ'
+  m.reply('ᴘʀᴏꜱᴇꜱ...')
+  let res = `https://api.lolhuman.xyz/api/ttp2?&text=${response[0]}&apikey=SadTeams`
+  conn.sendFile(m.chat, res, 'xynz.webp', `ꜱᴜᴅᴀʜ ᴊᴀᴅɪ`, m, false)
 }
 handler.help = ['ttp <teks>']
 handler.tags = ['sticker']
