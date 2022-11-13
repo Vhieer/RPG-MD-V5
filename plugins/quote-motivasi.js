@@ -9,13 +9,13 @@ let handler = async (m, { conn, command, text }) => {
   let flaa = pickRandom(global.flaaaaa)
 await conn.sendButton(m.chat, `${motivasii}\n`,wm + '\n\n' + botdate, `${flaa}Motivasi`, [['NEXT','.motivasi']], m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU',
+                        sourceUrl: 'https://www.youtube.com/watch?v=cvAbJt3xQaA',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ Secret MD`,
                         title: global.namebot,
-                        body: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
+                        body: `⚘ by Reeya`,          previewType: 0,
                         thumbnail: await (await fetch(giflogo2)).buffer(),
-                        mediaUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        mediaUrl: 'https://www.youtube.com/watch?v=cvAbJt3xQaA'
                         
                       }}
 })
