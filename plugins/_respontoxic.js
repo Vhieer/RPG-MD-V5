@@ -15,13 +15,13 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let name = await conn.getName(m.sender)
   let runnya = `━━━ꕥ〔 *SOURCE CODE* 〕ꕥ━⬣
-✾ *New Script by ᴹᴿ᭄ King Of Bear ×፝֟͜× Official*
+✾ *New Script by 𝕊𝕖𝕔𝕣𝕖𝕥 𝕄𝔻*
 
 ✾ *OFFICIAL GROUP*
-_https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL_
+_SOON_
 
 ✾ *YOUTUBE OFFICIAL*
-_https://youtu.be/hklv-Ysqqac_
+_https://www.youtube.com/c/TeamSecret_
 ━━━━━━ꕥ`
   let _muptime
     if (process.send) {
@@ -34,13 +34,13 @@ _https://youtu.be/hklv-Ysqqac_
     let muptime = clockString(_muptime)
  await conn.sendButton(m.chat, runnya,wm + '\n\n' + botdate, fla, [['🧑OWNER','.owner']], m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/hklv-Ysqqac',
+                        sourceUrl: 'https://www.youtube.com/watch?v=cvAbJt3xQaA',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
-                        title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ 𝓡𝓮𝓮𝔂𝓪`,
+                        title: `💌 Ultah mu : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        body: `⚘ by 𝓡𝓮𝓮𝔂𝓪`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/hklv-Ysqqac'
+                        mediaUrl: 'https://www.youtube.com/watch?v=cvAbJt3xQaA'
                         
                       }}
 })
