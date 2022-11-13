@@ -33,7 +33,7 @@ let tesk = '🚀 *ʟɪɴᴋ:* '
 let pros = '_*ᴄ ᴏ ɴ ᴠ ᴇ ʀ ᴛ ɪ ɴ ɢ . . .*_'
 //TINY
 if (args[1] == "tinyurl") {
-	let tiny = await (await fetch(`https://hardianto.xyz/api/short/tinyurl?url=${args[0]}&apikey=hardianto`)).json()
+	let tiny = await (await fetch(`https://botcahx.ddns.net/api/linkshort/tinyurl?link=${args[0]}`)).json()
 m.reply(pros).then(_ => conn.reply(m.chat, `${tesk}${tiny.result}`,m))
 }
 //--------------
@@ -47,15 +47,15 @@ if (args[1] == "linkpoi") {
 
 //BITLY
 if (args[1] == "bitly") {
-	let bit = await (await fetch(`https://api.xteam.xyz/shorturl/bitly?url=${args[0]}&APIKEY=YOURAPIKEY`)).json()
+	let bit = await (await fetch(`https://botcahx.ddns.net/api/linkshort/bitly?link=${args[0]}`)).json()
 	m.reply(pros).then(_=> conn.reply(m.chat, `${tesk}${bit.result.link}`,m))
 }
 //------------
 
-//OuO
-if (args[1] == "ouo") {
-	let ouo = await (await fetch(`https://api.lolhuman.xyz/api/ouoshortlink?apikey=YOURAPIKEY&url=${args[0]}`)).json()
-	m.reply(pros).then(_=> conn.reply(m.chat, `${tesk}${ouo.result}`,m))
+//Cutly
+if (args[1] == "cut") {
+	let cut = await (await fetch(`https://botcahx.ddns.net/api/linkshort/cuttly?link=${args[0]}`)).json()
+	m.reply(pros).then(_=> conn.reply(m.chat, `${tesk}${cut.result}`,m))
 	}
 }
 handler.help = ['short <url> <type>']
