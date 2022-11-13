@@ -50,7 +50,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 
 const listMessage = {
   text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\n⚘ ᴄʀᴇᴀᴛᴇ ʙʏ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\n⚘ ᴄʀᴇᴀᴛᴇ ʙʏ 𝓡𝓮𝓮𝔂𝓪`,
   title: "▢━━━━「 Registration 」━━━━▢",
   buttonText: "ഒ Register ഒ",
   sections
@@ -81,10 +81,10 @@ const listMessage = {
 │▸ *sɴ:* ${sn}
 ╰═┅═━––––––๑
 
-ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: ᴹᴿ᭄ King Of Bear ×፝֟͜×
+ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: Team Secret
 `
   let buttonMessage= {
-'document':{'url':'https://youtu.be/pwLZpdfO8AU'},
+'document':{'url':'https://www.youtube.com/watch?v=cvAbJt3xQaA'},
 'mimetype':global.ddocx,
 'fileName':'▢━━━━「 Registration 」━━━━▢',
 'fileLength':fsizedoc,
@@ -93,13 +93,13 @@ const listMessage = {
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/pwLZpdfO8AU',
+'mediaUrl':'https://www.youtube.com/watch?v=cvAbJt3xQaA',
 'mediaType':2,
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/pwLZpdfO8AU'}},
+'thumbnail':await(await fetch('https://telegra.ph/file/b90042f0d70b230d7c72e.jpg')).buffer(),
+'sourceUrl':'https://www.youtube.com/watch?v=cvAbJt3xQaA'}},
 'caption':cap,
 'footer':botdate,
 'buttons':[
