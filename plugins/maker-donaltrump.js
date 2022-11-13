@@ -3,8 +3,8 @@ let handler = async (m, { conn, args }) => {
    let response = args.join(' ').split('|')
   if (!args[0]) throw 'ᴍᴀꜱᴜᴋᴋᴀɴ ᴛᴇxᴛ'
   m.reply('ᴘʀᴏꜱᴇꜱ...')
-  let res = `https://api.lolhuman.xyz/api/tweettrump?apikey=64333e1c050ced435defe154&text=${response[0]}&apikey=Xynoz`
-  conn.sendFile(m.chat, res, 'xynz.jpg', `ꜱᴜᴅᴀʜ ᴊᴀᴅɪ`, m, false)
+  let res = `https://api.lolhuman.xyz/api/tweettrump?&text=${response[0]}&apikey=SadTeams`
+  conn.sendFile(m.chat, res, 'secret.jpg', `ꜱᴜᴅᴀʜ ᴊᴀᴅɪ`, m, false)
 }
 handler.help = ['donaldtrumptweet'].map(v => v + ' <text>')
 handler.tags = ['maker', 'premium']
