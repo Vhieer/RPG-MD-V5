@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import fs from 'fs';
 import crypto from 'crypto'
 let handler = async (m, { conn, text, usedPrefix }) => {
-    const ultah = new Date('November 4 2022 23:59:59')
+    const ultah = new Date('Desember 29 2022 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -16,7 +16,7 @@ ${botdate}
 `
         let img1 = fs.readFileSync('./thumbnail.jpg');
         let img2 = fs.readFileSync('./media/bawah.png');
-    return conn.sendButton(m.chat, hiasan, sewa, await (await fetch(`https://telegra.ph/file/6ab4daac226292a112540.jpg`)).buffer(), [["🗳️MENU", usedPrefix + "menu"], ["🔭DONASI", usedPrefix + "donasi"]], m, {
+    return conn.sendButton(m.chat, hiasan, sewa, await (await fetch(`https://telegra.ph/file/b90042f0d70b230d7c72e.jpg`)).buffer(), [["🗳️MENU", usedPrefix + "menu"], ["🔭DONASI", usedPrefix + "donasi"]], m, {
         contextInfo: {
             externalAdReply: {
                 mediaUrl: '',
