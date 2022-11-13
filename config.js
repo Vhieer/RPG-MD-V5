@@ -99,6 +99,7 @@ global.APIKeys = { // APIKey Here
 
 /*============== APIKEY ================*/
 global.bear = 'VBkM7rbU'
+global.lolkey = 'SadTeams'
 
 
 /*============== WATERMARK ==============*/
