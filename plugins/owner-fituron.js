@@ -15,7 +15,7 @@ await conn.reply(m.chat, list, 0, {
     title: global.wm, 
     body: 'Ini Aku Saranin Kak',  
     sourceUrl: sgc, 
-    thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer()
+    thumbnail: await (await fetch(`https://telegra.ph/file/b90042f0d70b230d7c72e.jpg`)).buffer()
       }}
      })
 }    
