@@ -20,13 +20,14 @@ Terimakasih Juga Untuk Kang Banned:
 ─────────────────────
 • God
 • My ortu
-• King Of Bear ( Me )
+• King Of Bear 
 • Nurutomo
 • Adiwajshing
 • Ariffb
 • Amel
 • IrwanX
 • Dawnfrosty
+• Reeya ( akohhh ) 
 • Rteam1
 • Beniismael
 • Raditya 
@@ -58,22 +59,22 @@ Terimakasih Juga Untuk Kang Banned:
 • Orang-orang yang Berdonasi
 ─────────────────────`
   let buttonMessage= {
-'document':{'url':'https://youtu.be/hklv-Ysqqac'},
+'document':{'url':'https://www.youtube.com/watch?v=cvAbJt3xQaA'},
 'mimetype':global.ddocx,
-'fileName':'「 ᴹᴿ᭄ King Of Bear ×፝֟͜× 」',
+'fileName':'「 𝕊𝕖𝕔𝕣𝕖𝕥 𝕄𝔻」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/hklv-Ysqqac',
+'mediaUrl':'https://www.youtube.com/watch?v=cvAbJt3xQaA',
 'mediaType':2,
 'previewType':'pdf',
-'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
-'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/hklv-Ysqqac'}},
+'title':`💌 Ultah mu: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+'body':`⚘ by 𝓡𝓮𝓮𝔂𝓪`,
+'thumbnail':await(await fetch('https://telegra.ph/file/b90042f0d70b230d7c72e.jpg')).buffer(),
+'sourceUrl':'https://www.youtube.com/watch?v=cvAbJt3xQaA'}},
 'caption':cap,
 'footer':`Ini Ucapan Terima Kasih Untuk Orang Yang Telah Berpatisipasi
 
