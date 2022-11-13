@@ -186,20 +186,20 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
 `, text.trim(), flaa, [
       [`ꜱᴇᴡᴀʙᴏᴛ`, `${usedPrefix}sewa`],
       [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`]
-    ], m, { 'document':{'url':'https://youtu.be/hklv-Ysqqac'},
+    ], m, { 'document':{'url':'https://www.youtube.com/watch?v=cvAbJt3xQaA'},
 'mimetype':global.dpdf,
-'fileName':'「 ᴹᴿ᭄ King Of Bear ×፝֟͜× 」',
+'fileName':'「 𝕊𝕖𝕔𝕣𝕖𝕥 𝕄𝔻 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/hklv-Ysqqac',
+                        sourceUrl: 'https://www.youtube.com/watch?v=cvAbJt3xQaA',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
-                        title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
+                        description: `⚘ 𝕊𝕖𝕔𝕣𝕖𝕥 𝕄𝔻`,
+                        title: `💌 Ultah mu: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        body: `⚘ by 𝓡𝓮𝓮𝔂𝓪`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/hklv-Ysqqac'
+                        mediaUrl: 'https://www.youtube.com/watch?v=cvAbJt3xQaA'
                         
                       }}
 })
