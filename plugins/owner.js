@@ -16,7 +16,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     surface : 404,
     message: `Nih My Mastah :3`, 
     orderTitle: ``,
-    thumbnail: await conn.resize(await (await fetch('https://i.ibb.co/jfZVKmC/babi2.jpg')).buffer(), 300, 200) //Gambarnye
+    thumbnail: await conn.resize(await (await fetch('https://telegra.ph/file/b90042f0d70b230d7c72e.jpg')).buffer(), 300, 200) //Gambarnye
 
     }
     }
@@ -39,22 +39,22 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
 let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan dispam yah ^_^` 
   let buttonMessage= {
-'document':{'url':'https://youtu.be/hklv-Ysqqac'},
+'document':{'url':'https://www.youtube.com/watch?v=cvAbJt3xQaA'},
 'mimetype':global.ddocx,
-'fileName':'「 ᴹᴿ᭄ King Of Bear ×፝֟͜× 」',
+'fileName':'「 𝕊𝕖𝕔𝕣𝕖𝕥 𝕄𝔻 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/hklv-Ysqqac',
+'mediaUrl':'https://www.youtube.com/watch?v=cvAbJt3xQaA',
 'mediaType':2,
 'previewType':'pdf',
-'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+'title':`💌 Ultah mu: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+'body':`⚘ by 𝓡𝓮𝓮𝔂𝓪`,
 'thumbnail': await(await fetch(thumb)).buffer(),
-'sourceUrl':'https://youtu.be/hklv-Ysqqac'}},
+'sourceUrl':'https://www.youtube.com/watch?v=cvAbJt3xQaA'}},
 'caption':cap,
 'footer':`Itu Owner Ku Yah Kak Jangan Sungkem Untuk Chat ;3
 
